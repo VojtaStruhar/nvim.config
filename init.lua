@@ -736,6 +736,13 @@ require('lazy').setup {
     end,
   },
 
+  -- I kinda like this theme too, let's keep it installed, ready to go when I change my mind.
+  {
+    'folke/gruvbox.nvim',
+    lazy = false,
+    config = true,
+  },
+
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
 
